@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.avos.avoscloud.AVOSCloud;
 import com.example.listviewfrashdemo1.R;
 import com.imooc.listviewfrashdemo1.ReFlashListView.IReflashListener;
 
@@ -14,6 +15,7 @@ public class MainActivity extends Activity implements IReflashListener{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		AVOSCloud.initialize(this,"oy5a2793ucedser1duqr4g78em34phtd1h42vv570h2eabup", "tihmbe724xct7a841yb4qng002v4swl4a80blf91vnb7cniy");
 		setContentView(R.layout.activity_main);
 		setData();
 		showList(apk_list);

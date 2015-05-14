@@ -46,7 +46,7 @@
             android:background="@drawable/dlbtn_selector"
             android:id="@+id/item3_dlbtn"
             android:layout_marginRight="10dip"
-            android:text="安装"
+            android:text="处理"
             />
     </LinearLayout>
 
