@@ -4,6 +4,8 @@ android {
     compileSdkVersion 19
     buildToolsVersion "22.0.1"
 
+    android{compileOptions.encoding = "GBK"}
+
     defaultConfig {
         applicationId "com.example.listviewfrashdemo1"
         minSdkVersion 8
